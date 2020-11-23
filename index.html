@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!--aceita acaracteres com acentuação-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--para associar o html ao css e poder formatar-->
+  <link rel="stylesheet" href="style/main.css">
+
+  <!--responsivo-->
+  <link rel="stylesheet" href="style/reponsive.css">
+
+  <!--owl css-->
+  <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+
+  <title>NETFLIX CR</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h2 class="logo">NETFLIX CÓPIA</h2>
+      <!--tag de nav serve para naveção, como de um menu por exemplo. # serve para não abrir uma page-->
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Séries</a>
+        <a href="#">Filmes</a>
+        <a href="#">Documentários</a>
+      </nav>
+    </div>
+  </header>
+
+  <!--main criando miolo do site-->
+  <main>
+    <div class="filme-principal">
+      <div class="container">
+        <h3 class="titulo">ORGULHO E PRECONCEITO</h3>
+        <p class="descricao">Elizabeth Bennet vive com sua mãe, pai e irmãs no campo, na Inglaterra. Por ser a filha mais velha, ela enfrenta uma crescente pressão de seus pais para se casar. Quando Elizabeth é apresentada ao belo e rico Darcy, faíscas voam.</p>
+
+        <div class="botoes">
+          <button role="button" class="botao">
+            <!--o i a baixo seria o icone de play pego da nuvem no site FONT AWESOME-->
+            <i class="fas fa-play"></i>
+            ASSISTIR AGORA</button>
+          <button role="button" class="botao">
+            <!--o i a baixo seria o icone de info pego da nuvem no site FONT AWESOME-->
+            <i class="fas fa-info-circle"></i>
+            MAIS INFORMAÇÕES</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="carrossel-filmes">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="box-filme" src="img/harry-potter.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/greys.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/how-i-met-your-mother2.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/friends.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/hobbit.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/bela.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/game-of.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/glee.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/divertidamente.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/gossip.jpg" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <!--link de arquivo JS, referenciando um link externo na nuvem-->
+  <script src="https://kit.fontawesome.com/8cf7fd336a.js" crossorigin="anonymous"></script>
+
+  <!--owl js-->
+  <script src="/js/owl/jquery.min.js"></script>
+  <script src="/js/owl/owl.carousel.min.js"></script>
+  <script src="/js/setup.js"></script>
+
+</body>
+
+</html>

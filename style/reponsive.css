@@ -1,0 +1,18 @@
+@media screen and (max-width: 700px) {
+  header .container {
+    display: flex;
+    flex-direction: column; /*irá jogar os icones para baixo quando a tela for 700 px*/
+  }
+
+  /*reajustando botões para telas mobile*/
+  .botao {
+    margin-top: 5px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .descricao {
+    width: 50%; /*para o teste ficar concentrado a esquerda*/
+  }
+}
